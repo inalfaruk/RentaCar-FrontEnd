@@ -1,0 +1,17 @@
+<table  class="table table-dark table-hover">
+    <thead>
+        <tr>
+        <th>Id</th>
+        <th>userId</th>
+        <th>companyName</th>
+     
+</thead>
+<tbody>
+        <tr *ngFor="let customer of customers">
+        <td> {{customer.id}}</td>
+        <td>{{customer.userId}} </td>
+        <td>{{customer.companyName}} </td>
+     
+    </tr>
+</tbody>
+</table>
